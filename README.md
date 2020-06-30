@@ -1,2 +1,2 @@
 # PythonProjects
-<p> Small Projects from Coursera Python for Everybody specialization </p> 
+<p> Small Projects from Coursera <b> Python for Everybody </b> specialization </p> 
