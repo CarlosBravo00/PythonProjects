@@ -4,7 +4,7 @@ hold = dict()
 hand = open('example.txt')
 for line in hand:
     line = line.rstrip()
-    #if re.search('^X-.*:',line) :
+    #if re.search('^X-.*:',line):
     if re.search('^X-\S+?:',line) :
         lst = line.split(':')
         hold[lst[0]] = int(lst[1].strip())
